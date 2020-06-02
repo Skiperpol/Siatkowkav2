@@ -1,0 +1,251 @@
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+  }
+
+
+#conatiner
+{
+	min-height: 100%;
+	height: auto;
+  	height: 100%;
+	margin-bottom:30px;
+
+}
+#baner
+{
+    text-align: center;
+}
+
+
+body {
+	background-size: cover;
+}
+
+#zakladki
+{
+    width: 100%;
+    margin: 0;
+	padding: 0px;
+	background-color: #800000;
+	text-align: center;
+
+}
+
+#scroll-top {
+    
+    background:url('up1.jpg');
+    background-repeat:no-repeat;   
+    width:50px;
+    height:50px;
+    position:fixed;
+    bottom:90px;
+    right:80px;
+}
+
+
+.nav {
+	position: sticky;
+	top: 0;
+
+}
+
+	.nav ul {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+	}
+
+		.nav li {
+			width: 100%;
+		}
+
+
+
+
+.section {
+	padding: 50px 0;
+
+}
+
+	.section *:not(:first-child) {
+		margin-top: 30px;
+	}
+
+
+ol
+{
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				font-size: 30px;
+				height: 60px;
+				
+				display: inline-block;
+}
+ol a
+{
+				color: #FFFFFF;
+				text-decoration: none;
+}
+ol > li  
+{
+				float: left;
+				padding: 15px 31px;
+}
+
+ol > la  
+{
+				float: left;
+				padding: 15px 31px;
+}
+
+
+ol > li:hover
+{
+				background-color:#FA8072;
+}
+
+
+#tresc
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ol1
+{
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				font-size: 25px;
+				height: 44px;
+				
+				display: inline-block;
+}
+ol1 a
+{
+				color: #FFFFFF;
+				text-decoration: none;
+}
+ol1 > li1 
+{
+				float: left;
+				padding: 10px 31px;
+}
+
+
+ol1 > li1:hover
+{
+				background-color:#FA8072;
+}
+#odnosniki
+{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+	padding: 0px;
+	background-color: #800000;
+	text-align: center;
+}
+
+#pasek
+{
+    width: 100%;
+    margin: 0;
+
+	padding: 2px;
+	background-color: #800000;
+}
+
+.center	{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 14.68%;
+}
+h1	{
+	text-align: justify;
+	font-size: 28px;
+}
+h2 {
+	text-align: center; 
+	font-size: 45px;
+	font-weight: bold; 
+}
+
+h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+
+}
+h4{
+	font-size: 45px;
+	font-weight: bold; 
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+}
+
+h5	{
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+
+img.medal {
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin-right: 20px;
+float: left;
+
+
+}
+
+
+table {
+    margin-left:auto; 
+	margin-right:auto;
+	
+  }
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+  }
+
+ 
+
+  table td {
+	background-color: rgb(245, 207, 207);
+	padding: 10px;
+	font-size: 20px;
+	text-align:center;
+  }
+  table th {
+	background-color: rgba(204, 8, 8, 0.699);
+	font-size: 25px;
+	padding: 10px;
+	text-align:center;
+  }
+
+footer {
+
+  	background-color:#800000;
+	color: rgb(216, 200, 200);
+	height: 90px;
+}
+
+
+
+f1 {
+	margin-top: 15px;
+	position: absolute;
+	left: 30%;
+	font-size: 25px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div id="conatiner">
+        <div id="baner">
+            
+            
+
+            <img src="Polska_Siatkowka.png" width="500" height="200" alt="Baner">
+        </div>
+        <div id="zakladki">
+            <ol>
+            <li><a href="main.html" target="content">Główna</a></li>
+            <li><a href="historia.html" target="content">Historia</a></li>
+            <li><a href="osiagniecia.html" target="content">Osiągnięcia</a></li>
+            <li><a href="kadra.html" target="content">Kadra</a></li>
+            <li><a href="film.html" target="content">Film</a></li>
+            <la><div id="czas" style="font-size: 30px; color: white;"></div></la>
+            </ol>
+            <script type="text/javascript">
+                function getTime() 
+                {
+                    return (new Date()).toLocaleTimeString();
+                }
+                document.getElementById('czas').innerHTML = getTime();
+                setInterval(function() {
+                    document.getElementById('czas').innerHTML = getTime(); 
+                }, 1000);
+            </script>
+        </div>
+    </div>
+</body>
+</html>
